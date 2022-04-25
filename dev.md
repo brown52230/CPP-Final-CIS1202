@@ -7,9 +7,9 @@
 - [ ] Math Operations
   
 - [ ] Classes
-  - [ ] Base Class
+  - [x] Base Class
   - [ ] Derived
-  - [ ] Separate Header
+  - [x] Separate Header
   - [ ] Overloaded Function??
 
 - [ ] Output
