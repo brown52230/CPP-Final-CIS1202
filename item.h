@@ -15,6 +15,14 @@ class Item
         itemType type;
         double price;
     public:
+        Item()
+        {
+            name = "";
+            stock = 0;
+            type = OTHER;
+            price = 0.0;
+        }
+
         void setName(string n)
         { name = n; }
         void setStock(int s)
