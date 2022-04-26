@@ -1,6 +1,6 @@
-#include "item.h"
+#include "Item.h"
 
-Item()
+Item::Item()
 {
     name = "";
     stock = 0;
@@ -8,7 +8,7 @@ Item()
     price = 0.0;
 }
 
-Item(string n, int s, itemType t, double p)
+Item::Item(string n, int s, itemType t, double p)
 {
     name = n;
     stock = s;
