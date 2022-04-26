@@ -6,10 +6,10 @@ Game::Game()
     platform = "";
     year = 0;
 }
-Game::Game(string d, string p, int y) : Item(n, s, t, p)
+Game::Game(string n, int s, itemType t, double p, string d, string pl, int y) : Item(n, s, t, p)
 {
     developer = d;
-    platform = p;
+    platform = pl;
     year = y;
 }
 

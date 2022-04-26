@@ -11,7 +11,7 @@ class Game : public Item
         int year;
     public:
         Game();
-        Game(string, string, int);
+        Game(string, int, itemType, double, string, string, int);
 
         void displayItem()
         {
