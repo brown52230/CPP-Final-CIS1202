@@ -1,3 +1,9 @@
 {
-    "C_Cpp.dimInactiveRegions": false
+    "files.associations": {
+        "xstring": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "string": "cpp"
+    }
 }
