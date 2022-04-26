@@ -4,13 +4,18 @@
 
 - [ ] Binary Files
 - [ ] Validated Input
-- [ ] Math Operations
+- [x] Math Operations
   
 - [ ] Classes
   - [x] Base Class
   - [ ] Derived
+    - [x] Video
+    - [ ] Music
+    - [ ] Game
+    - [ ] Book
   - [x] Separate Header
-  - [ ] Overloaded Function??
+  - [x] Overloaded Function??
+  - [ ] Cart System???
 
 - [ ] Output
   - [ ] Clear Instructions
