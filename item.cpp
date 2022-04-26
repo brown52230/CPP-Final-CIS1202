@@ -1,11 +1,32 @@
 #include "item.h"
 
-item::addStock(int s)
+Item()
 {
-    stock += s;
+    name = "";
+    stock = 0;
+    type = OTHER;
+    price = 0.0;
 }
 
-item::removeStock(int s)
+Item(string n, int s, itemType t, double p)
 {
-    stock -= s;
+    name = n;
+    stock = s;
+    type = t;
+    price = p;
 }
+
+void Item::setName(string n)
+{ name = n; }
+void Item::setStock(int s)
+{ stock = s; }
+void Item::setType(itemType t)
+{ type = t; }
+void Item::setPrice(double p)
+{ price = p; }
+
+void Item::addStock(int s)
+{ stock += s; }
+
+void Item::removeStock(int s)
+{ stock -= s; }
