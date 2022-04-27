@@ -13,6 +13,14 @@ class Book : public Item
         Book();
         Book(string, int, itemType, double, string, string, int);
 
+        void displayItem()
+        {
+            Item::displayItem();
+            cout << "Author: " << author << endl;
+            cout << "Publisher: " << publisher << endl;
+            cout << "Year Published: " << yearPublished << endl;
+        }
+        
         void setAuthor(string);
         void setPublisher(string);
         void setYearPublished(int);
