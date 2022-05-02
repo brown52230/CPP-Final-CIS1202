@@ -20,8 +20,8 @@ class Item
 
         void displayItem()
         {
-            cout << "Name: " << name << endl;
-            cout << "Stock: " << stock << endl;
+            cout << "Name: " << getName() << endl;
+            cout << "Stock: " << getStock() << endl;
             cout << "Type: ";
             switch(type)
             {

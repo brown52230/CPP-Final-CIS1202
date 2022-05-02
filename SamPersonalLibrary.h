@@ -50,7 +50,7 @@ int validateInteger(string prompt, int min, int max) {
 double validateDouble(string prompt) {
 	double num = 0;
 	cout << "\n" << prompt;
-	while (!(cin >> num) || cin.fail() || num > 0)
+	while (!(cin >> num) || cin.fail() || num < 0)
 	{
 		if (num < 0) cout << "Value cannot be negative.";
 		else cout << "\nValue is not a valid entry. Try Again." << endl;
